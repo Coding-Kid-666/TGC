@@ -1,0 +1,64 @@
+<head>
+    <title>Send Mail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Yellowtail&display=swap" rel="stylesheet">
+<script src="main.js"></script>
+</head>
+<body>
+    <center>
+        <br>
+        <br>
+        <div id="border">
+        <h1 class="btn btn-warning header">Send a mail to TGC</h1>
+        <br>
+        <br>
+        <br>
+        <h2>Name:</h2>
+        <input type="text" id="name" style="width: 50%;" placeholder="Your name here">
+        <br>
+        <br>
+        <h2>Website or App?</h2>
+        <select name="woa" id="lol" style="width: 50%; font-weight: bolder; background-color: yellow;">
+            <option style="font-weight: bolder; background-color: violet;">Website</option>
+            <option style="font-weight: bolder; background-color: greenyellow;">App</option>
+        </select>
+        <br>
+        <br>
+        <h2>Website/App name</h2>
+        <input type="text" id="sitename" style="width: 50%; " placeholder="Your website/app name here">
+        <br>
+        <br>
+        <h2>Some features which you want in this website:</h2>
+        <input type="text" id="features" style="width: 50%;" placeholder="Features e.g. 'I want a picture moving left and right'">
+        <br>
+        <br>
+        <a id="mailme" href=""><button class="btn btn-success" onclick="letgo()">Send</button></a>
+    </div>
+    <br>
+    <br>
+    </center>
+
+    <style>
+        #border{
+            border-style: solid;
+            width: 70%;
+            height: 110%;
+        }
+        .header{
+            font-size: 40px;
+        }
+        input:hover{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</body>
